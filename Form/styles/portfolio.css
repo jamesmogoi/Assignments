@@ -7,7 +7,7 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #165bb4;
     color: #333;
 }
 
@@ -122,4 +122,70 @@ form button {
 
 form button:hover {
     background-color: #555;
+}
+/* Container styling */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Title styling */
+.container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Contact info paragraph styling */
+.container p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Contact info items */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Individual contact items */
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Icon styling */
+.info-item i {
+    font-size: 22px;
+    color: #007bff;
+}
+
+/* Link styling */
+.info-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.info-item a:hover {
+    text-decoration: underline;
+}
+
+/* Address styling */
+.info-item p {
+    margin: 0;
+}
+
+/* Adding hover effect for links */
+.info-item a:hover {
+    color: #0056b3;
 }
